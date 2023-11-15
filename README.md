@@ -1,6 +1,15 @@
 ### PLY File Parser
 This Python module provides a simple PLY (Polygon File Format) file parser. It includes a class PLYObject for storing PLY file data and a function parse_ply_file for reading PLY files and creating PLYObject instances.
 
+### Requirements
+`Python 3.11.x`
+
+### Installation
+```
+python3 -m pip install ply_parser
+```
+
+
 ### Usage
 ### PLYObject Class
 The PLYObject class represents a PLY object with attributes:
@@ -26,8 +35,6 @@ if parsed_object:
     print("total_colors:", len(parsed_object.colors))
 ```
 
-### Requirements
-`Python 3.11.x`
 
 ### PLY File Format Support
 This parser currently supports PLY files with the following characteristics:
@@ -110,7 +117,10 @@ python3
 twine upload dist/*
 ```
 
-#### The new package then becomes available at:  https://pypi.org/project/ply-parser/
+#### The new package then becomes available at:  https://pypi.org/project/ply-parser/ and can be installed by
+```
+python3 -m pip install ply_parser
+```
 
 
 
